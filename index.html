@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Delegacia Cidadã — portal demonstrativo de serviços, atendimento e informações de segurança pública.">
+  <title>Delegacia Cidadã | Atendimento e Serviços</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Delegacia Cidadã - início">
+        <span class="brand-mark">⚖</span>
+        <span><strong>Delegacia</strong><small>Cidadã</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#orientacoes">Orientações</a>
+        <a href="#unidades">Unidades</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="emergency mini" href="tel:190">Emergência <b>190</b></a>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">ATENDIMENTO AO CIDADÃO</span>
+          <h1>Segurança, informação e atendimento <span>perto de você.</span></h1>
+          <p>Portal demonstrativo para facilitar o acesso a serviços, orientações e canais de atendimento da delegacia.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#servicos">Conheça os serviços →</a>
+            <a class="btn ghost" href="#contato">Fale conosco</a>
+          </div>
+          <div class="trust-row">
+            <div><strong>24h</strong><span>Emergências</span></div>
+            <div><strong>100%</strong><span>Atendimento cidadão</span></div>
+            <div><strong>Online</strong><span>Informações e orientações</span></div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card-top"><span class="status-dot"></span> Atendimento prioritário</div>
+          <div class="shield">⚖</div>
+          <h2>Precisa de ajuda?</h2>
+          <p>Em situação de emergência, procure atendimento imediato.</p>
+          <a class="emergency" href="tel:190"><span>☎</span> Ligar para 190</a>
+          <small>Em ocorrências não emergenciais, utilize os canais de atendimento.</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="servicos">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">SERVIÇOS</span>
+          <h2>Como podemos ajudar?</h2>
+          <p>Encontre rapidamente o serviço que você precisa.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="icon">▣</div><h3>Registro de ocorrência</h3>
+            <p>Orientações para registrar uma ocorrência e reunir as informações necessárias.</p>
+            <button class="text-btn" data-modal="ocorrencia">Saiba mais →</button>
+          </article>
+          <article class="service-card">
+            <div class="icon">✓</div><h3>Certidões e documentos</h3>
+            <p>Consulte informações sobre documentos, solicitações e acompanhamento.</p>
+            <button class="text-btn" data-modal="documentos">Saiba mais →</button>
+          </article>
+          <article class="service-card">
+            <div class="icon">♧</div><h3>Proteção e orientação</h3>
+            <p>Informações de prevenção, proteção e canais para situações de vulnerabilidade.</p>
+            <button class="text-btn" data-modal="protecao">Saiba mais →</button>
+          </article>
+          <article class="service-card">
+            <div class="icon">?</div><h3>Fale com a delegacia</h3>
+            <p>Encontre contatos e horários de atendimento da unidade mais próxima.</p>
+            <a class="text-btn" href="#contato">Ver contatos →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-band" id="orientacoes">
+      <div class="container info-grid">
+        <div>
+          <span class="eyebrow light">ORIENTAÇÕES</span>
+          <h2>Em uma emergência, sua segurança vem primeiro.</h2>
+          <p>Afaste-se do perigo quando possível, procure um local seguro e acione o serviço de emergência.</p>
+          <a class="btn light-btn" href="#contato">Ver canais de atendimento</a>
+        </div>
+        <div class="steps">
+          <div><b>01</b><span>Vá para um local seguro.</span></div>
+          <div><b>02</b><span>Ligue para o serviço adequado.</span></div>
+          <div><b>03</b><span>Informe local e detalhes da ocorrência.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="unidades">
+      <div class="container">
+        <div class="section-heading row-heading">
+          <div><span class="eyebrow">ATENDIMENTO</span><h2>Encontre uma unidade</h2></div>
+          <span class="location-badge">📍 Atendimento presencial</span>
+        </div>
+        <div class="unit-card">
+          <div class="unit-icon">⌖</div>
+          <div><h3>Delegacia Cidadã — Unidade Central</h3><p>Av. Central, 1000 · Centro</p><span class="hours">Seg. a sex., 08h às 18h · Plantão para emergências</span></div>
+          <a class="btn outline" href="#contato">Ver contato</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contato">
+      <div class="container contact-grid">
+        <div>
+          <span class="eyebrow">CONTATO</span>
+          <h2>Estamos aqui para orientar.</h2>
+          <p>Use os canais abaixo para informações. Este site é um projeto demonstrativo e não substitui os canais oficiais de emergência.</p>
+          <div class="contact-list">
+            <div><span>☎</span><div><strong>Emergência</strong><a href="tel:190">190</a></div></div>
+            <div><span>✉</span><div><strong>E-mail</strong><a href="mailto:atendimento@delegaciacidada.example">atendimento@delegaciacidada.example</a></div></div>
+            <div><span>⌖</span><div><strong>Endereço</strong><p>Av. Central, 1000 · Centro</p></div></div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <h3>Envie uma mensagem</h3>
+          <label>Nome<input required name="name" placeholder="Seu nome"></label>
+          <label>E-mail<input required type="email" name="email" placeholder="voce@email.com"></label>
+          <label>Mensagem<textarea required name="message" rows="4" placeholder="Como podemos orientar?"></textarea></label>
+          <button class="btn primary" type="submit">Enviar mensagem</button>
+          <p class="form-note" id="formNote" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <div><strong>Delegacia Cidadã</strong><p>Projeto demonstrativo de interface web.</p></div>
+      <p>© <span id="year"></span> · Segurança e cidadania</p>
+    </div>
+  </footer>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" aria-label="Fechar">×</button>
+      <span class="eyebrow">INFORMAÇÃO</span><h2 id="modalTitle"></h2><p id="modalText"></p>
+      <button class="btn primary modal-ok">Entendi</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
